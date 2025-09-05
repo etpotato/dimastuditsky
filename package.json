@@ -11,10 +11,14 @@
   "dependencies": {
     "@react-router/node": "^7.7.1",
     "@react-router/serve": "^7.7.1",
+    "classnames": "^2.5.1",
+    "contentful": "^11.7.15",
+    "dotenv": "^17.2.2",
     "isbot": "^5.1.27",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "^7.7.1"
+    "react-router": "^7.7.1",
+    "zod": "^4.1.5"
   },
   "devDependencies": {
     "@react-router/dev": "^7.7.1",

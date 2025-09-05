@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.chip {
+  display: block;
+  padding: 0.2em 1em;
+  min-width: 10ch;
+  border-radius: 100em;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}
+
+.active {
+  color: inherit;
+  outline: 2px solid currentColor;
+}
