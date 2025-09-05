@@ -16,28 +16,48 @@ export class ContentfulRepository implements Repository {
   }
 
   public async getTrackList(source?: TrackSource): Promise<TrackList> {
-    try {
-      const [tracksResponse, groupsResponse] = await Promise.all([
-        this.client.getEntries({
-          content_type: "track",
-          "fields.url[match]": getSourceMatch(source),
-          limit: 1000,
-        }),
-        this.client.getEntries({
-          content_type: "trackGroup",
-          limit: 1000,
-        }),
-      ]);
+    const [tracksResponse, groupsResponse] = await Promise.all([
+      this.client.getEntries({
+        content_type: "track",
+        "fields.url[match]": getSourceMatch(source),
+        limit: 1000,
+      }),
+      this.client.getEntries({
+        content_type: "trackGroup",
+        select: ["fields.tracks"],
+        include: 0,
+        limit: 1000,
+      }),
+    ]);
 
-      const trackList = mapTrackList({
-        tracks: tracksResponse.items as unknown as CtflTrack[],
-        groups: groupsResponse.items as unknown as CtflTrackGroup[],
-      });
+    const trackList = mapTrackList({
+      tracks: tracksResponse.items as unknown as CtflTrack[],
+      groups: groupsResponse.items as unknown as CtflTrackGroup[],
+    });
 
-      return trackList;
-    } catch (error) {
-      console.error("Error retrieving track list:", error);
-      throw new Error("Failed to retrieve track list");
-    }
+    return trackList;
+  }
+
+  public async getTotalTrackCount(): Promise<number> {
+    const [tracksResponse, groupsResponse] = await Promise.all([
+      this.client.getEntries({
+        content_type: "track",
+        select: ["sys.id"],
+        limit: 1000,
+      }),
+      this.client.getEntries({
+        content_type: "trackGroup",
+        select: ["fields.tracks"],
+        include: 0,
+        limit: 1000,
+      }),
+    ]);
+
+    const trackList = mapTrackList({
+      tracks: tracksResponse.items as unknown as CtflTrack[],
+      groups: groupsResponse.items as unknown as CtflTrackGroup[],
+    });
+
+    return trackList.length;
   }
 }

@@ -1,3 +1,7 @@
+.count {
+  margin-bottom: 1em;
+}
+
 .list {
   display: flex;
   flex-wrap: wrap;
