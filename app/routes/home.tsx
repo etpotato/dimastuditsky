@@ -21,19 +21,23 @@ export async function loader({ request }: Route.LoaderArgs) {
   const source = getSource(url.searchParams.get(SOURCE_SEARCH_PARAM_NAME));
   const contentfulRepository = new ContentfulRepository(config.contentful);
 
-  const trackList = await contentfulRepository.getTrackList(source);
+  const [trackList, totalTrackCount] = await Promise.all([
+    contentfulRepository.getTrackList(source),
+    contentfulRepository.getTotalTrackCount(),
+  ]);
 
-  return { trackList };
+  return { trackList, totalTrackCount };
 }
 
 export default function Home({ loaderData }: Route.ComponentProps) {
-  const { trackList } = loaderData;
+  const { trackList, totalTrackCount } = loaderData;
   const [searchParams] = useSearchParams();
   const activeSource = getSource(searchParams.get(SOURCE_SEARCH_PARAM_NAME));
 
   return (
     <>
       <Welcome />
+      <p className={styles.count}>{totalTrackCount} sets in library</p>
       <ul className={styles.list}>
         <li>
           <a

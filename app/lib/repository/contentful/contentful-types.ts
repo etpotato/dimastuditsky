@@ -1,16 +1,11 @@
 import type { Track } from "../../../types";
 
 export type CtflTrack = {
-  sys: {
-    id: string;
-  };
+  sys: Pick<Track, "id">;
   fields: Omit<Track, "id">;
 };
 
 export type CtflTrackGroup = {
-  sys: {
-    id: string;
-  };
   fields: {
     tracks: {
       sys: Pick<Track, "id">;
