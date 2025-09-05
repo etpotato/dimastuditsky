@@ -1,5 +1,4 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 import { getSource } from "~/lib/get-source";
 import { SOURCE_SEARCH_PARAM_NAME } from "~/constants";
 import { ContentfulRepository } from "~/lib/repository/index.server";
@@ -8,6 +7,7 @@ import { TrackSource } from "~/types";
 import styles from "./home.module.css";
 import { useSearchParams } from "react-router";
 import cn from "classnames";
+import { Header } from "~/сomponents";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -33,7 +33,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
 
   return (
     <>
-      <Welcome />
+      <Header setsCount={trackList.length}/>
       <ul className={styles.list}>
         <li>
           <a
@@ -56,6 +56,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
       </ul>
 
       <pre>{JSON.stringify(trackList, null, 2)}</pre>
+      <Header setsCount={trackList.length} isBottom/>
     </>
   );
 }

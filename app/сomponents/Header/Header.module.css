@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 20px;
+}
+
+@media (max-width: 1024px) {
+    .headerEl:nth-child(2) {
+        display: none;
+    }
+}
