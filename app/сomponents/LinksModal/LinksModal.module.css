@@ -1,0 +1,16 @@
+.modal {
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+.button {
+    padding: 40px;
+    background-color: white;
+}

@@ -7,7 +7,7 @@ import { TrackSource } from "~/types";
 import styles from "./home.module.css";
 import { useSearchParams } from "react-router";
 import cn from "classnames";
-import { Header } from "~/сomponents";
+import { Header, Links } from "~/сomponents";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -33,11 +33,15 @@ export default function Home({ loaderData }: Route.ComponentProps) {
   const { trackList, totalTrackCount } = loaderData;
   const [searchParams] = useSearchParams();
   const activeSource = getSource(searchParams.get(SOURCE_SEARCH_PARAM_NAME));
+  
+  const headerItems = ["Dima Studitsky", `${totalTrackCount} sets in library`, "Дима Студицкий"]
+  const bottomHeaderItems = headerItems.reverse().toSpliced(1, 1, `${totalTrackCount} сета в библиотеке`)
 
   return (
     <>
-      <Header setsCount={trackList.length}/>
-      <ul className={styles.list}>
+      <Header items={headerItems}/>
+      <Links/>
+      {/* <ul className={styles.list}>
         <li>
           <a
             href="/"
@@ -58,8 +62,9 @@ export default function Home({ loaderData }: Route.ComponentProps) {
         ))}
       </ul>
 
-      <pre>{JSON.stringify(trackList, null, 2)}</pre>
-      <Header setsCount={trackList.length} isBottom/>
+      <pre>{JSON.stringify(trackList, null, 2)}</pre> */}
+      <Links/>
+      <Header items={bottomHeaderItems}/>
     </>
   );
 }

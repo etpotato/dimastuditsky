@@ -1,17 +1,17 @@
+import cn from 'classnames';
 import { Text } from '~/ui';
 import styles from './Header.module.css'
 
 interface Props {
-    setsCount: number;
-    isBottom?: boolean
+    items: string[];
+    isModal?: boolean;
 }
 
-export function Header({setsCount, isBottom}: Props) {
-    const headerItems = ["Dima Studitsky", `${setsCount} sets in library`, "Дима Студицкий"]
-    if (isBottom) headerItems.reverse().splice(1, 1, `${setsCount} сета в библиотеке`);
+export function Header({items, isModal}: Props) {
+    console.log(items)
     return(
         <div className={styles.header}>
-            {headerItems.map((item) => <Text content={item} className={styles.headerEl} key={item}/>)}
+            {items.map((item, idx) => <Text content={item} className={cn(styles.headerEl, !isModal && idx === 1 && styles.hide)} key={item}/>)}
         </div>
     ) 
 }
