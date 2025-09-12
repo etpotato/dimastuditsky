@@ -4,6 +4,8 @@
     gap: 4px;
     padding: 8px;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 
 

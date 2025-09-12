@@ -8,7 +8,6 @@ interface Props {
 }
 
 export function Header({items, isModal}: Props) {
-    console.log(items)
     return(
         <div className={styles.header}>
             {items.map((item, idx) => <Text content={item} className={cn(styles.headerEl, !isModal && idx === 1 && styles.hide)} key={item}/>)}
