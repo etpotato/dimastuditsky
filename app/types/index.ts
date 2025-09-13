@@ -13,9 +13,17 @@ export type TrackGroup = Pick<Track, "id">[];
 export type TrackList = Array<Track | Track[]>;
 
 export const TrackSource = {
-  Spotify: "spotify",
   Soundcloud: "soundcloud",
-  Yandex: "yandex",
   Youtube: "youtube",
+  Spotify: "spotify",
+  Yandex: "yandex",
 } as const;
+
+export const TrackSourceRu = {
+  spotify: "Спотифай",
+  soundcloud: "Саундклауд",
+  yandex: "Яндекс",
+  youtube: "Ютуб",
+} as const;
+
 export type TrackSource = (typeof TrackSource)[keyof typeof TrackSource];
