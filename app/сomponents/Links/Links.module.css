@@ -1,5 +1,17 @@
 .links {
-    padding: 200px;
+    padding: 200px 0;
     display: grid;
     place-items: center;
+}
+
+.linkButton {
+    border-radius: 5px;
+    border: 1px solid #fff;
+}    
+
+@media (hover: hover) {
+    .linkButton:hover {
+        border-radius: 5px;
+        border: 1px solid #000;
+    }  
 }

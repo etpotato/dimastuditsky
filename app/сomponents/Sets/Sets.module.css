@@ -1,0 +1,32 @@
+.sets {
+    padding: 60px 0;
+    display: grid;
+    gap: 60px;
+    padding: 70px 20px;
+
+    @media (max-width: 1024px) {
+        padding: 0 12px 60px;
+    }
+}
+
+.setsProperty {
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) 10fr;
+
+    @media (max-width: 1024px) {
+        grid-template-columns: 1fr
+    }
+}
+
+.setsYear {  
+    padding-top: 46px;
+    @media (max-width: 1024px) {
+        justify-self: center;
+        padding: 100px 0 120px;
+    }
+}
+
+.setsContainer {
+    display: grid;
+    gap: 20px;
+}

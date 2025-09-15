@@ -27,3 +27,18 @@ export const TrackSourceRu = {
 } as const;
 
 export type TrackSource = (typeof TrackSource)[keyof typeof TrackSource];
+
+export type SetType = {
+  id: string;
+  title: string;
+  date: string;
+  duration: number;
+  artwork: string;
+  url: string
+}
+
+export type GetPropertiesReturnType = {
+  setsCount: number;
+  properties: Record<string, SetType[]>
+  yearsList: number[]
+}

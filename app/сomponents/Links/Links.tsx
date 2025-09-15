@@ -23,7 +23,12 @@ export function Links() {
 
     return(
         <div className={styles.links}>
-            <Button content="Links" icon={<IconLinks />} onClick={openClickHandler}/>
+            <Button 
+                content="Links" 
+                icon={<IconLinks />} 
+                onClick={openClickHandler}
+                className={styles.linkButton}
+            />
             <LinksModal open={modalOpen} onClick={closeClickHandler}/> 
         </div>
     )

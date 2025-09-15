@@ -1,0 +1,77 @@
+.setCard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 6px;
+    box-sizing: border-box;
+
+    @media (max-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px 0;
+    }
+}
+
+@media (hover: hover) {
+    .setCard:hover {
+        border: 1px solid #000;
+    }
+}
+
+.setDate {
+    width: 86px;
+}
+
+.setTitle {
+    
+    @media (max-width: 1024px) {  
+        max-width: 264px;
+        justify-self: center;
+        grid-column: 1/-1;
+        grid-row: 2/-1;
+        text-align: center;
+    }
+}
+
+.setImgs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-right: 10px;
+
+    @media (max-width: 1024px) {
+        display: block;
+        margin: 0;
+        justify-self: center;
+        height: 100px;
+    }
+}
+
+.setImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.setSource {
+    width: 20px;
+    height: 20px;
+
+    @media (max-width: 1024px) {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 50%);
+        padding: 4px;
+        background-color: #fff;
+        border-radius: 6px;
+    }
+}
+
+.setDuration {
+    margin-left: auto;
+}

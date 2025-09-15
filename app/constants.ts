@@ -1,3 +1,6 @@
+import { IconSoundcloud, IconSpotify, IconYandexmusic, IconYoutube } from "~/assets"
+
+
 export const SOURCE_SEARCH_PARAM_NAME = "source";
 
 export const socialLinks = [
@@ -15,5 +18,5 @@ export const socialLinks = [
         source: 'linktr',
         link: 'https://linktr.ee/dimastuditsky',
         text: 'linktr.ee/dimastuditsky'
-    }
+    },
 ]

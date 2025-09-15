@@ -16,7 +16,9 @@ export function Filters({isBottom}: Props) {
 
     return(
         <ul className={styles.list}>
-            <li className={styles.full}>
+            <li className={cn(styles.full, {
+                [styles.last]: isBottom
+            })}>
                 <Link
                     href="/"
                     target="_self"

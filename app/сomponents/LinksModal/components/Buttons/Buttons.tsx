@@ -9,8 +9,17 @@ interface Props {
 
 export function Buttons({onClick, isBottom}: Props) {
     const buttons = [
-        <Button className={styles.links} content={!isBottom ? "Links" : "Ссылки"} key={"Links"} icon={<IconLinks />}/>,
-        <Button content={!isBottom ? "Close" : "Закрыть"} onClick={onClick} key={"Close" }/>
+        <Button 
+            className={styles.links} 
+            content={!isBottom ? "Links" : "Ссылки"} 
+            key={"Links"} icon={<IconLinks />}
+        />,
+        <Button 
+            className={styles.close}
+            content={!isBottom ? "Close" : "Закрыть"} 
+            onClick={onClick} 
+            key={"Close" }
+        />
     ]
     if (isBottom) buttons.reverse()
     return(

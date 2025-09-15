@@ -6,3 +6,22 @@
 .links {
     cursor: initial;
 }
+
+.close {
+    position: relative;
+}
+
+.close::after {
+    content: "";
+    position: absolute;
+    width: calc(100% - 16px);
+    height: 2px;
+    bottom: 8px;
+    background-color: #fff;
+}
+
+@media (hover: hover) {
+    .close:hover.close::after {
+        background-color: #000;
+    }
+}

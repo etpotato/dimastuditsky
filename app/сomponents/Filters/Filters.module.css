@@ -45,9 +45,23 @@
     text-transform:  capitalize;
 }
 
+@media (hover: hover) {
+    .filter:hover {
+        color: white;
+        background-color: black;
+        outline: 2px solid currentColor;    
+    }
+}
+
 .active {
     color: white;
     background-color: black;
     outline: 2px solid currentColor;
+}
+
+@media (max-width: 786px) {
+    .last {
+        order: 10;
+    }
 }
   
