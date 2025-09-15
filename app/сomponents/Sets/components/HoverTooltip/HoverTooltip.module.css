@@ -1,0 +1,18 @@
+.tooltip {
+    position: relative;
+}
+
+.tooltipContent {
+    position: fixed;
+    padding: 10px 14px;
+    border-radius: 5px;
+    background: #000;
+    transform: translateX(-50%);
+    pointer-events: none;
+    z-index: 1000;
+    text-align: center;
+}
+
+.tooltipText {
+    color: #fff;
+}

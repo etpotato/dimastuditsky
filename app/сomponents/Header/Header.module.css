@@ -5,6 +5,10 @@
     padding: 20px;
 }
 
+.headerEl {
+    cursor: default;
+}
+
 @media (max-width: 1024px) {
     .hide {
         display: none;

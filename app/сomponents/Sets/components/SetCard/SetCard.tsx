@@ -3,9 +3,11 @@ import styles from "./SetCard.module.css"
 import { Link, Text } from "~/ui";
 import { getSource } from "../../utils/getSource";
 import { CardIcon } from "../CardIcon/CardIcon";
+import { getFormattedDuration } from "../../utils/getFormattedDuration";
 
 export function SetCard({title, date, artwork, url, duration}: SetType) {
     const source = getSource(url)
+    const formattedDuration = getFormattedDuration(duration)
     
     return(
         <Link href={url} className={styles.setCard}>
@@ -21,7 +23,7 @@ export function SetCard({title, date, artwork, url, duration}: SetType) {
                 </div>
             </div>
             <Text content={title} className={styles.setTitle}/>
-            <Text content={duration.toString()} className={styles.setDuration}/>
+            <Text content={formattedDuration} className={styles.setDuration}/>
         </Link>
     )
 }
