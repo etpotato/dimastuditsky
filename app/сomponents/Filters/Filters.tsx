@@ -4,7 +4,8 @@ import { TrackSource, TrackSourceRu } from "~/types";
 import { SOURCE_SEARCH_PARAM_NAME } from "~/constants";
 import styles from './Filters.module.css'
 import { useSearchParams } from 'react-router';
-import { Link } from "~/ui";
+import { Link } from "react-router";
+import { Text } from "~/ui";
 
 interface Props {
     isBottom?: boolean
@@ -20,15 +21,14 @@ export function Filters({isBottom}: Props) {
                 [styles.last]: isBottom
             })}>
                 <Link
-                    href="/"
+                    to="/"
                     target="_self"
                     className={cn(styles.filter, { [styles.active]: !activeSource })}
                 >
-                    {!isBottom 
-                        ? "All platforms"
-                        : "Все платформы"
-                    }
-                    
+                    <Text 
+                        className={styles.filterText}
+                        content={!isBottom ? "All platforms" : "Все платформы"}
+                    />                    
                 </Link>
             </li>
             {Object.values(TrackSource).map((source) => (
@@ -36,16 +36,17 @@ export function Filters({isBottom}: Props) {
                 key={source}
             >  
                 <Link 
-                    href={`/?${SOURCE_SEARCH_PARAM_NAME}=${source}`}
+                    to={`/?${SOURCE_SEARCH_PARAM_NAME}=${source}`}
                     target="_self"
                     className={cn(styles.filter, {
                         [styles.active]: source === activeSource,
                         })}
-                >{
-                    !isBottom 
-                        ? source
-                        : TrackSourceRu[source]
-                }</Link>
+                >
+                    <Text 
+                        className={styles.filterText}
+                        content={!isBottom ? source : TrackSourceRu[source]}
+                    />
+                </Link>
             </li>
             ))}
       </ul>

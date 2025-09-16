@@ -5,6 +5,7 @@
     width: 100vw;
     height: 100vh;
     background-color: white;
+    min-width: 320px;
 }
 
 .overlay {

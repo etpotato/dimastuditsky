@@ -7,6 +7,7 @@
 .linkButton {
     border-radius: 5px;
     border: 1px solid #fff;
+    padding: 10px 16px 10px 14px;
 }    
 
 @media (hover: hover) {

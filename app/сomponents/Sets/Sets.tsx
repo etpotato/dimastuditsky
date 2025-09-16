@@ -13,13 +13,28 @@ export function Sets({yearsList, properties}: Props) {
             {yearsList?.map((year) => (
                 <div className={styles.setsProperty} key={year}>
                     <Text className={styles.setsYear} content={year.toString()}/>
-                    <div className={styles.setsContainer}>
-                        {properties[year].map((set) => (
-                            <HoverTooltip url={set.url} key={set.id}>
-                                <SetCard {...set}/>
-                            </HoverTooltip>
-                        ))}
-                    </div>
+                    <ul className={styles.setsContainer}>
+                        {properties[year].map((set, idx) => {
+                            if (Array.isArray(set)) {
+                                return(
+                                <li key={`${idx}-${set[0].id}`}>
+                                    <ul className={styles.setGroup}>
+                                        {set.map(s => 
+                                            <li key={s.id}>
+                                                <SetCard {...s}/>
+                                            </li>    
+                                        )}
+                                    </ul>
+                                </li>
+                                )
+                            }
+                            return(
+                                <li key={set.id}>
+                                    <SetCard {...set}/>
+                                </li>
+                            )
+                        })}
+                    </ul>
                 </div>
             ))}
         </div>

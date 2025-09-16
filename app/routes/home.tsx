@@ -23,23 +23,25 @@ export async function loader({ request }: Route.LoaderArgs) {
     contentfulRepository.getTotalTrackCount(),
   ]);
 
-  return { trackList, totalTrackCount };
+  const {properties, yearsList} = getProperties(trackList)
+
+  return { properties, yearsList, trackList, totalTrackCount, source };
 }
 
 export default function Home({ loaderData }: Route.ComponentProps) {
-  const { trackList } = loaderData;
-  const {setsCount, yearsList, properties} = getProperties(trackList)
-  const headerItems = ["Dima Studitsky", `${setsCount} sets in library`, "Дима Студицкий"]
+  const { properties, yearsList, trackList, source } = loaderData;
 
+  const sourceFormatted = `${source?.charAt(0).toUpperCase()}${source?.slice(1)}`
+  const headerItems = ["Dima Studitsky", `${trackList.length} sets in ${source ? sourceFormatted : 'library'}`, "Дима Студицкий"]
   return (
     <>
       <Header items={headerItems}/>
       <Links/>
       <Filters />
-      <Sets yearsList={yearsList} properties={properties}/>
+      <Sets yearsList={yearsList} properties={properties} />
       <Filters isBottom/>
       <Links/>
-      <Header items={headerItems.reverse().toSpliced(1, 1, `${setsCount} сета в библиотеке`)}/>
+      <Header items={headerItems.reverse().toSpliced(1, 1, `${trackList.length} сета в ${source ? sourceFormatted : 'библиотеке'}`)}/>
     </>
   );
 }

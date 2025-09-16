@@ -2,7 +2,6 @@ import {Modal } from "~/ui";
 import styles from "./LinksModal.module.css"
 import { Header } from "~/сomponents";
 import { Dialogs } from "./components/Dialogs/Dialogs";
-import React, { useEffect } from "react";
 
 interface Props {
     open: boolean;
@@ -18,7 +17,7 @@ export function LinksModal({open, onClick}: Props) {
             <div className={styles.modal}>
                 <div className={styles.overlay} onClick={onClick}>
                     <Header items={headerItems} isModal/>
-                    <Header items={headerItems.reverse()} isModal/> 
+                    <Header items={headerItems.toReversed()} isModal/> 
                 </div>
                 <div className={styles.content}>
                     <Dialogs onClick={onClick}/>

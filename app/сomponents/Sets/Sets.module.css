@@ -6,12 +6,15 @@
 
     @media (max-width: 1024px) {
         padding: 0 12px 60px;
+        gap: 0;
+
     }
 }
 
 .setsProperty {
+    position: relative;
     display: grid;
-    grid-template-columns: minmax(100px, 1fr) 10fr;
+    grid-template-columns: 1fr;
 
     @media (max-width: 1024px) {
         grid-template-columns: 1fr
@@ -19,8 +22,18 @@
 }
 
 .setsYear {  
-    padding-top: 46px;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    font-variant-numeric: lining-nums tabular-nums;
+    transition: 0.3s ease-in-out;
+
+    @media (max-width: 1180px) {
+        top: 0;
+    }
+
     @media (max-width: 1024px) {
+        position: static;
         justify-self: center;
         padding: 100px 0 120px;
     }
@@ -29,4 +42,15 @@
 .setsContainer {
     display: grid;
     gap: 20px;
+
+    @media (max-width: 1024px) { 
+        gap: 60px;
+    }
+}
+
+.setGroup {
+    @media (max-width: 1024px) {
+        display: grid;
+        gap: 20px;
+    }
 }

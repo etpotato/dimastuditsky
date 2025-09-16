@@ -3,15 +3,17 @@ import { Text } from "~/ui";
 import styles from './HoverTooltip.module.css'
 import { getSource } from "../../utils/getSource";
 import { sources } from "./HoverTooltip.utils";
+import cn from "classnames";
 
 
 interface Props {
     children: React.ReactNode;
     url: string;
+    className?: string;
 }
 
-export function HoverTooltip({children, url}: Props) {
-    const [position, setPosition] = useState({x: 0, y: 0})
+export function HoverTooltip({children, url, className}: Props) {
+    const [position, setPosition] = useState({x: -100, y: -100})
     const [visible, setVisible] = useState(false)
 
     const mouseMoveHandler = (e: React.MouseEvent) => setPosition({x: e.clientX, y: e.clientY})
@@ -26,7 +28,7 @@ export function HoverTooltip({children, url}: Props) {
             onMouseMove={mouseMoveHandler}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className={styles.tooltip}
+            className={cn(styles.tooltip, className && className)}
         >
             {children}
             {visible && 

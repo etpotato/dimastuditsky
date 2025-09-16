@@ -1,5 +1,7 @@
 .dialogs {
     width: 100%;
     align-self: center;
+    display: grid;
+    gap: 20px;
     padding: 0 10px;
 }
