@@ -3,7 +3,6 @@ import type { GetPropertiesReturnType } from "~/types";
 import { Text } from "~/ui";
 import styles from './Sets.module.css'
 import { SetCard } from "./components/SetCard/SetCard";
-import { HoverTooltip } from "./components/HoverTooltip/HoverTooltip";
 
 type Props = Omit<GetPropertiesReturnType, 'setsCount'>
 
