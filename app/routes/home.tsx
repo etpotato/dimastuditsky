@@ -5,7 +5,6 @@ import { ContentfulRepository } from "~/lib/repository/index.server";
 import { config } from "~/lib/config/index.server";
 import { Header, Links, Filters, Sets } from "~/сomponents";
 import { getProperties } from "~/lib/config/get-propertys";
-import { ScrollRestoration } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -43,7 +42,6 @@ export default function Home({ loaderData }: Route.ComponentProps) {
       <Filters isBottom/>
       <Links/>
       <Header items={headerItems.reverse().toSpliced(1, 1, `${trackList.length} сета в ${source ? sourceFormatted : 'библиотеке'}`)}/>
-      <ScrollRestoration />
     </>
   );
 }

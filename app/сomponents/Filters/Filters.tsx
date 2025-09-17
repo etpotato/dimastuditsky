@@ -24,6 +24,7 @@ export function Filters({isBottom}: Props) {
                     to="/"
                     target="_self"
                     className={cn(styles.filter, { [styles.active]: !activeSource })}
+                    preventScrollReset
                 >
                     <Text 
                         className={styles.filterText}
@@ -41,6 +42,7 @@ export function Filters({isBottom}: Props) {
                     className={cn(styles.filter, {
                         [styles.active]: source === activeSource,
                         })}
+                    preventScrollReset
                 >
                     <Text 
                         className={styles.filterText}
