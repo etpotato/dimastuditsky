@@ -1,12 +1,13 @@
-import type { SetType, Track } from "~/types";
+import type { Track } from "~/types";
 import styles from "./SetCard.module.css"
 import { Link, Text } from "~/ui";
 import { getSource } from "../../utils/getSource";
 import { CardIcon } from "../CardIcon/CardIcon";
 import { getFormattedDuration } from "../../utils/getFormattedDuration";
 import { HoverTooltip } from "../HoverTooltip/HoverTooltip";
+import { memo } from "react";
 
-export function SetCard({created_at, artwork_url, duration, title, url}: Track) {
+export const SetCard = memo(function ({created_at, artwork_url, duration, title, url}: Track) {
     const source = getSource(url)
     const formattedDuration = getFormattedDuration(duration)
     const trackDate = new Date(created_at)
@@ -14,25 +15,29 @@ export function SetCard({created_at, artwork_url, duration, title, url}: Track) 
 
     
     return(
-        <Link href={url} className={styles.setCard}>
+        <div className={styles.setCard}>
             <Text content={date} className={styles.setDate}/>
             <HoverTooltip url={url} className={styles.setTooltip}>
-                <div className={styles.setCell}>
-                    <Text content={date} className={styles.setDatePc}/>
-                    <div className={styles.setImgs}>
-                        <img 
-                            src={artwork_url} 
-                            className={styles.setImg}
-                            alt={`Artwork ${title}`} 
-                        />
-                        <div className={styles.setSource}>
-                            <CardIcon source={source} />
+                <Link
+                    href={url}
+                >
+                    <div className={styles.setCell}>
+                        <Text content={date} className={styles.setDatePc}/>
+                        <div className={styles.setImgs}>
+                            <img 
+                                src={artwork_url} 
+                                className={styles.setImg}
+                                alt={`Artwork ${title}`} 
+                            />
+                            <div className={styles.setSource}>
+                                <CardIcon source={source} />
+                            </div>
                         </div>
+                        <Text content={title.toUpperCase()} className={styles.setTitle}/>
                     </div>
-                    <Text content={title.toUpperCase()} className={styles.setTitle}/>
-                </div>
+                </Link>
             </HoverTooltip>
             <Text content={formattedDuration} className={styles.setDuration}/>
-        </Link>
+        </div>
     )
-}
+})

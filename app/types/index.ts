@@ -39,5 +39,5 @@ export type SetType = {
 
 export type GetPropertiesReturnType = {
   properties: Record<string, TrackList>
-  yearsList: number[]
+  yearsList: string[]
 }

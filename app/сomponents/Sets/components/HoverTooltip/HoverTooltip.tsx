@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import { Text } from "~/ui";
 import styles from './HoverTooltip.module.css'
 import { getSource } from "../../utils/getSource";
@@ -12,7 +12,7 @@ interface Props {
     className?: string;
 }
 
-export function HoverTooltip({children, url, className}: Props) {
+export const HoverTooltip = memo(function ({children, url, className}: Props) {
     const [position, setPosition] = useState({x: -100, y: -100})
     const [visible, setVisible] = useState(false)
 
@@ -21,7 +21,6 @@ export function HoverTooltip({children, url, className}: Props) {
     const mouseLeaveHandler = () => setVisible(false)
 
     const source = getSource(url)
-    const tooltipText = source.charAt(0).toUpperCase() + source.slice(1)
 
     return(
         <div
@@ -44,4 +43,4 @@ export function HoverTooltip({children, url, className}: Props) {
             }
         </div>
     )
-}
+})

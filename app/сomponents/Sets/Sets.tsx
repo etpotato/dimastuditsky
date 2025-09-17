@@ -11,7 +11,7 @@ export function Sets({yearsList, properties}: Props) {
         <div className={styles.sets}>
             {yearsList?.map((year) => (
                 <div className={styles.setsProperty} key={year}>
-                    <Text className={styles.setsYear} content={year.toString()}/>
+                    <Text className={styles.setsYear} content={year}/>
                     <ul className={styles.setsContainer}>
                         {properties[year].map((set, idx) => {
                             if (Array.isArray(set)) {
