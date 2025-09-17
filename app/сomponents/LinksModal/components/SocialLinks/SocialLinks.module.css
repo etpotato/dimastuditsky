@@ -10,8 +10,24 @@
 }
 
 .link {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: transparent;
+}
+
+@media (hover: hover) {
+    .link:hover.link::after {
+        background-color: #000;
+    }
 }
