@@ -4,7 +4,6 @@ import { SOURCE_SEARCH_PARAM_NAME } from "~/constants";
 import { ContentfulRepository } from "~/lib/repository/index.server";
 import { config } from "~/lib/config/index.server";
 import { Header, Links, Filters, Sets } from "~/сomponents";
-import { getProperties } from "~/lib/config/get-propertys";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -20,28 +19,26 @@ export async function loader({ request }: Route.LoaderArgs) {
 
   const [trackList, totalTrackCount] = await Promise.all([
     contentfulRepository.getTrackList(source),
-    contentfulRepository.getTotalTrackCount(),
+    contentfulRepository.getTotalTrackCount(source),
   ]);
 
-  const {properties, yearsList} = getProperties(trackList)
-
-  return { properties, yearsList, trackList, totalTrackCount, source };
+  return { trackList, totalTrackCount, source };
 }
 
 export default function Home({ loaderData }: Route.ComponentProps) {
-  const { properties, yearsList, trackList, source } = loaderData;
+  const { trackList, totalTrackCount, source } = loaderData;
 
   const sourceFormatted = `${source?.charAt(0).toUpperCase()}${source?.slice(1)}`
-  const headerItems = ["Dima Studitsky", `${trackList.length} sets in ${source ? sourceFormatted : 'library'}`, "Дима Студицкий"]
+  const headerItems = ["Dima Studitsky", `${totalTrackCount} sets in ${source ? sourceFormatted : 'library'}`, "Дима Студицкий"]
   return (
     <>
       <Header items={headerItems}/>
       <Links/>
       <Filters />
-      <Sets yearsList={yearsList} properties={properties} />
+      <Sets  trackList={trackList}/>
       <Filters isBottom/>
       <Links/>
-      <Header items={headerItems.reverse().toSpliced(1, 1, `${trackList.length} сета в ${source ? sourceFormatted : 'библиотеке'}`)}/>
+      <Header items={headerItems.reverse().toSpliced(1, 1, `${totalTrackCount} сета в ${source ? sourceFormatted : 'библиотеке'}`)}/>
     </>
   );
 }

@@ -1,12 +1,13 @@
-import type { Track, TrackList } from "~/types";
+import type { Track, MapTrackList } from "~/types";
 import type { CtflTrack, CtflTrackGroup } from "../contentful-types";
 import { mapTrack } from "./map-track";
 import { mapGroup } from "./map-group";
 
+
 export function mapTrackList(ctflResponse: {
   tracks: CtflTrack[];
   groups: CtflTrackGroup[];
-}): TrackList {
+}):  MapTrackList{
   const tracks = ctflResponse.tracks.map(mapTrack);
   const groups = ctflResponse.groups.map(mapGroup);
 
@@ -30,15 +31,18 @@ export function mapTrackList(ctflResponse: {
     }
   }
 
-  const trackList = [...tracksWithoutGroups, ...trackWithGroups].sort(
-    (a, b) =>
-      (Array.isArray(b)
-        ? new Date(b[0].created_at).getTime()
-        : new Date(b.created_at).getTime()) -
-      (Array.isArray(a)
-        ? new Date(a[0].created_at).getTime()
-        : new Date(a.created_at).getTime())
-  );
+  const trackList: MapTrackList = {};
+  
+  [...tracksWithoutGroups, ...trackWithGroups].forEach((track) => {
+    const trackDate = new Date(Array.isArray(track) ? track[0].created_at : track.created_at)
+    const year = trackDate.getFullYear();
+
+    if (trackList[year]) {
+      trackList[year].push(track)
+    } else {
+      trackList[year] = [track]
+    }
+  })
 
   return trackList;
 }

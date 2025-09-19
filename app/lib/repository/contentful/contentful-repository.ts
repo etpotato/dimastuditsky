@@ -1,4 +1,4 @@
-import type { TrackList, TrackSource } from "../../../types";
+import type { TrackList, TrackSource, MapTrackList } from "../../../types";
 import type { Repository } from "../repository-interface";
 import { type ContentfulClientApi, createClient } from "contentful";
 import type { CtflTrack, CtflTrackGroup } from "./contentful-types";
@@ -15,7 +15,7 @@ export class ContentfulRepository implements Repository {
     });
   }
 
-  public async getTrackList(source?: TrackSource): Promise<TrackList> {
+  public async getTrackList(source?: TrackSource): Promise<MapTrackList> {
     const [tracksResponse, groupsResponse] = await Promise.all([
       this.client.getEntries({
         content_type: "track",
@@ -38,10 +38,11 @@ export class ContentfulRepository implements Repository {
     return trackList;
   }
 
-  public async getTotalTrackCount(): Promise<number> {
+  public async getTotalTrackCount(source?: TrackSource): Promise<number> {
     const [tracksResponse, groupsResponse] = await Promise.all([
       this.client.getEntries({
         content_type: "track",
+        "fields.url[match]": getSourceMatch(source),
         select: ["sys.id"],
         limit: 1000,
       }),
@@ -58,6 +59,11 @@ export class ContentfulRepository implements Repository {
       groups: groupsResponse.items as unknown as CtflTrackGroup[],
     });
 
-    return trackList.length;
+    let trackCount = 0
+    for (let year in trackList) {
+      trackCount += trackList[year].length
+    }
+
+    return trackCount;
   }
 }
