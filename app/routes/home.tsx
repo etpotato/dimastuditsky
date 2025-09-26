@@ -4,6 +4,8 @@ import { SOURCE_SEARCH_PARAM_NAME } from "~/constants";
 import { ContentfulRepository } from "~/lib/repository/index.server";
 import { config } from "~/lib/config/index.server";
 import { Header, Links, Filters, Sets } from "~/сomponents";
+import { getPluralSet } from "~/ulils/pluralRules";
+import { TrackSourceRu } from "~/types";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -29,7 +31,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
   const { trackList, totalTrackCount, source } = loaderData;
 
   const sourceFormatted = `${source?.charAt(0).toUpperCase()}${source?.slice(1)}`
-  const headerItems = ["Dima Studitsky", `${totalTrackCount} sets in ${source ? sourceFormatted : 'library'}`, "Дима Студицкий"]
+  const headerItems = ["Dima Studitsky", `${totalTrackCount} ${getPluralSet(totalTrackCount, 'en-EN')} ${source ? 'on' : 'in'} ${source ? sourceFormatted : 'library'}`, "Дима Студицкий"]
   return (
     <>
       <Header items={headerItems}/>
@@ -38,7 +40,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
       <Sets  trackList={trackList}/>
       <Filters isBottom/>
       <Links/>
-      <Header items={headerItems.reverse().toSpliced(1, 1, `${totalTrackCount} сета в ${source ? sourceFormatted : 'библиотеке'}`)}/>
+      <Header items={headerItems.toReversed().toSpliced(1, 1, `${totalTrackCount} ${getPluralSet(totalTrackCount, 'ru-RU')} ${source ? 'на' : 'в'} ${source ? TrackSourceRu[source] : 'библиотеке'}`)}/>
     </>
   );
 }

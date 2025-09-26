@@ -7,7 +7,14 @@ import { getFormattedDuration } from "../../utils/getFormattedDuration";
 import { HoverTooltip } from "../HoverTooltip/HoverTooltip";
 import { memo } from "react";
 
-export const SetCard = memo(function ({created_at, artwork_url, duration, title, url}: Track) {
+interface Props {
+    card: Track;
+    isGroup?: boolean;
+    index?: number;
+}
+
+export const SetCard = memo(function ({card, isGroup, index}: Props) {
+    const {created_at, artwork_url, duration, title, url} = card;
     const source = getSource(url)
     const formattedDuration = getFormattedDuration(duration)
     const trackDate = new Date(created_at)
@@ -22,7 +29,9 @@ export const SetCard = memo(function ({created_at, artwork_url, duration, title,
                     href={url}
                 >
                     <div className={styles.setCell}>
-                        <Text content={date} className={styles.setDatePc}/>
+                        {isGroup 
+                            ? index === 0 && <Text content={date} className={styles.setDatePc}/> 
+                            : <Text content={date} className={styles.setDatePc}/>}
                         <div className={styles.setImgs}>
                             <img 
                                 src={artwork_url} 

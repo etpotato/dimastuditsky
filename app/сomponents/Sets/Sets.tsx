@@ -22,9 +22,9 @@ export function Sets({trackList}: Props) {
                                 return(
                                     <li key={`${idx}-${set[0].id}`}>
                                         <ul className={styles.setGroup}>
-                                            {set.map(s => 
+                                            {set.map((s, idx) => 
                                                 <li key={s.id}>
-                                                    <SetCard {...s}/>
+                                                    <SetCard card={s} isGroup index={idx}/>
                                                 </li>    
                                             )}
                                         </ul>
@@ -33,7 +33,7 @@ export function Sets({trackList}: Props) {
                             }
                             return(
                                 <li key={set.id}>
-                                    <SetCard {...set}/>
+                                    <SetCard card={set}/>
                                 </li>
                             )
                         })}
