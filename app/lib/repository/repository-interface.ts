@@ -1,6 +1,5 @@
-import type { TrackSource, MapTrackList } from "../../types";
+import type { TrackSource, Tracks } from "../../types";
 
 export interface Repository {
-  getTrackList(source?: TrackSource): Promise<MapTrackList>;
-  getTotalTrackCount(source?: TrackSource): Promise<number>;
+  getTracks(source?: TrackSource): Promise<Tracks>;
 }

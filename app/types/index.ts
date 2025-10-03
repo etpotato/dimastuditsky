@@ -4,7 +4,7 @@ export type Track = {
   duration: number;
   id: string;
   title: string;
-  description: string;
+  description?: string;
   url: string;
 };
 
@@ -12,7 +12,12 @@ export type TrackGroup = Pick<Track, "id">[];
 
 export type TrackList = Array<Track | Track[]>;
 
-export type MapTrackList = Record<string, TrackList>
+export type TrackListByYear = Record<string, TrackList>;
+
+export type Tracks = {
+  trackListByYear: TrackListByYear;
+  total: number;
+};
 
 export const TrackSource = {
   Soundcloud: "soundcloud",
