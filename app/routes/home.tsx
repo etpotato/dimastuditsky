@@ -3,7 +3,7 @@ import { getSource } from "~/lib/get-source";
 import { SOURCE_SEARCH_PARAM_NAME } from "~/constants";
 import { ContentfulRepository } from "~/lib/repository/index.server";
 import { config } from "~/lib/config/index.server";
-import { Header, Links, Filters, Sets } from "~/сomponents";
+import { Header, Links, Filters, Sets } from "~/components";
 import { TrackSourceRu } from "~/types";
 import { getPluralSet, uppercase } from "~/utils";
 
