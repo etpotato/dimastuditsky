@@ -1,9 +1,8 @@
-import type { TrackList, TrackSource, MapTrackList } from "../../../types";
-import type { Repository } from "../repository-interface";
 import { type ContentfulClientApi, createClient } from "contentful";
+import type { TrackSource, Tracks } from "../../../types";
+import type { Repository } from "../repository-interface";
 import type { CtflTrack, CtflTrackGroup } from "./contentful-types";
-import { getSourceMatch } from "./utils/get-source-match";
-import { mapTrackList } from "./utils/map-track-list";
+import { getSourceMatch, mapTracks } from "./utils";
 
 export class ContentfulRepository implements Repository {
   private client: ContentfulClientApi<undefined>;
@@ -15,7 +14,7 @@ export class ContentfulRepository implements Repository {
     });
   }
 
-  public async getTrackList(source?: TrackSource): Promise<MapTrackList> {
+  public async getTracks(source?: TrackSource): Promise<Tracks> {
     const [tracksResponse, groupsResponse] = await Promise.all([
       this.client.getEntries({
         content_type: "track",
@@ -29,41 +28,11 @@ export class ContentfulRepository implements Repository {
         limit: 1000,
       }),
     ]);
-
-    const trackList = mapTrackList({
+    const tracks = mapTracks({
       tracks: tracksResponse.items as unknown as CtflTrack[],
       groups: groupsResponse.items as unknown as CtflTrackGroup[],
     });
 
-    return trackList;
-  }
-
-  public async getTotalTrackCount(source?: TrackSource): Promise<number> {
-    const [tracksResponse, groupsResponse] = await Promise.all([
-      this.client.getEntries({
-        content_type: "track",
-        "fields.url[match]": getSourceMatch(source),
-        select: ["sys.id"],
-        limit: 1000,
-      }),
-      this.client.getEntries({
-        content_type: "trackGroup",
-        select: ["fields.tracks"],
-        include: 0,
-        limit: 1000,
-      }),
-    ]);
-
-    const trackList = mapTrackList({
-      tracks: tracksResponse.items as unknown as CtflTrack[],
-      groups: groupsResponse.items as unknown as CtflTrackGroup[],
-    });
-
-    let trackCount = 0
-    for (let year in trackList) {
-      trackCount += trackList[year].length
-    }
-
-    return trackCount;
+    return tracks;
   }
 }

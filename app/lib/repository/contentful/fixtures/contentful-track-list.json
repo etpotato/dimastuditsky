@@ -1,0 +1,1617 @@
+{
+  "tracks": [
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "45NzxH9N8EHOd47Gla35y8",
+        "type": "Entry",
+        "createdAt": "2025-09-15T11:48:42.422Z",
+        "updatedAt": "2025-09-15T11:48:42.422Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 7,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Proto Rhythm w/ Dima Studitsky @ KURS radio 30.07.25",
+        "duration": 3265,
+        "created_at": "2025-07-30T12:00+02:00",
+        "artwork_url": "https://i1.sndcdn.com/artworks-pbv3WBAbRxohO14z-yOgXxA-t1080x1080.png",
+        "url": "https://soundcloud.com/kurs_radio/proto-rhythm-w-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "5MUX9HJu7s9ept6elJ5l48",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:44.404Z",
+        "updatedAt": "2025-07-12T18:10:41.032Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 3,
+        "revision": 2,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Most Moscow: Dima Studitsky 03.12.21",
+        "description": "",
+        "duration": 3855,
+        "created_at": "2021-12-03T12:00+01:00",
+        "artwork_url": "https://img.youtube.com/vi/V9EjD2AfaeQ/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=V9EjD2AfaeQ"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "7GVQsDA1bAarP47xgvGQQr",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:42.819Z",
+        "updatedAt": "2025-07-12T18:09:48.181Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 3,
+        "revision": 2,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Live Session #120 - Dima Studitsky & Sergeev",
+        "description": "RTS.FM Moscow",
+        "duration": 7008,
+        "created_at": "2021-02-25T12:00+00:00",
+        "artwork_url": "https://i1.sndcdn.com/artworks-qHLy2BoKQS8JcBQm-i9bwyQ-large.jpg",
+        "url": "https://soundcloud.com/antonsergeev/live-session-120-dima-studitsky-sergeev"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "y57q6mNxMtt8IYxyqkYNr",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:43.068Z",
+        "updatedAt": "2025-07-12T18:09:30.357Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 3,
+        "revision": 2,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Live Session #120 - Dima Studitsky",
+        "description": "ASLS - Anton Sergeev Live Sessions. My guest for tonight - Dima Studitsky",
+        "duration": 9812,
+        "created_at": "2021-02-25T12:00+01:00",
+        "artwork_url": "https://img.youtube.com/vi/AOXUPUUVG6Y/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=AOXUPUUVG6Y"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "32n7bOtGvQEri6gclmSB5w",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:27.068Z",
+        "updatedAt": "2025-07-12T18:07:22.058Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 4,
+        "revision": 2,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky - Propaganda Moscow Stream Session Dec. 2020",
+        "description": "https://www.youtube.com/watch?v=4oYbdD8tKjM&t=2004s",
+        "duration": 10698,
+        "created_at": "2020-12-15T11:02+00:00",
+        "artwork_url": "https://i1.sndcdn.com/artworks-kyhzCeb0fD4XrJij-2HpFSQ-large.jpg",
+        "url": "https://soundcloud.com/user-455612185/dima-studitsky-propaganda-moscow-stream-session-dec-2020"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "7H65vXb9wghYarjK7DOZZG",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:27.592Z",
+        "updatedAt": "2025-07-12T18:06:52.638Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 3,
+        "revision": 2,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky - Propaganda Moscow Stream Session Jan. 2021",
+        "description": "https://www.youtube.com/watch?v=O2ofpZc-mp4&t=10215s",
+        "duration": 11008,
+        "created_at": "2021-01-15T11:17+00:00",
+        "artwork_url": "https://i1.sndcdn.com/artworks-gnqp9Mu50gkYQVP7-tJ9VrA-large.jpg",
+        "url": "https://soundcloud.com/user-455612185/dima-studitsky-propaganda-moscow-stream-session-janv-2021"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "7ksnwqhOZSGYSiUgN7W28V",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:40.606Z",
+        "updatedAt": "2025-07-09T20:13:29.548Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 5,
+        "revision": 3,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Studitsky @ RTS.FM Studio - 15.03.2009: DJ Set",
+        "description": "RTS.FM Moscow",
+        "duration": 4264,
+        "created_at": "2009-03-15T12:00+02:00",
+        "artwork_url": "https://img.youtube.com/vi/_VuiS8QgBHQ/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=_VuiS8QgBHQ"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "2A73hIiwTGq30MuZtHprmr",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:39.907Z",
+        "updatedAt": "2025-07-09T20:13:16.392Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 5,
+        "revision": 3,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Studitsky @ RTS.FM Studio -19.10.2008: DJ Set",
+        "description": "RTS.FM Moscow - rts.fm",
+        "duration": 3681,
+        "created_at": "2008-10-19T12:00+02:00",
+        "artwork_url": "https://img.youtube.com/vi/0HlpzRPelS4/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=0HlpzRPelS4"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "4JzaPNdDQykAA21eOpuPbi",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:39.146Z",
+        "updatedAt": "2025-07-09T20:13:00.883Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 5,
+        "revision": 3,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Studitsky @ RTS.FM Studio 28.09.2008: DJ set",
+        "description": "RTS.FM Moscow - rts.fm",
+        "duration": 4005,
+        "created_at": "2008-09-28T12:00+02:00",
+        "artwork_url": "https://img.youtube.com/vi/_JxPLLdCIQo/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=_JxPLLdCIQo"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "ry7Vza5RlfbVcfsOx0nZe",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:41.500Z",
+        "updatedAt": "2025-07-09T20:12:35.715Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 7,
+        "revision": 4,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Studitsky @ RTS.FM Studio - 19.04.2009: DJ Set",
+        "description": "",
+        "duration": 3991,
+        "created_at": "2009-04-19T12:00+02:00",
+        "artwork_url": "https://img.youtube.com/vi/dkxmHOM5oWU/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=dkxmHOM5oWU"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "13IVvLidTV1rFvbWZ4rwkj",
+        "type": "Entry",
+        "createdAt": "2025-07-09T17:24:10.409Z",
+        "updatedAt": "2025-07-09T17:24:10.409Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 9,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "5/8 : radio at letnik — dima safronov b2b dima studitsky",
+        "duration": 7384,
+        "created_at": "2025-06-26T00:00+02:00",
+        "artwork_url": "https://i1.sndcdn.com/artworks-FHm9pV6G6ze21V10-7FOTyg-t1080x1080.jpg",
+        "url": "https://soundcloud.com/5na8radio/58-radio-at-letnik-dima-safronov-b2b-dima-studitsky-1"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "uyQbwrJr19aY04jmDp2A5",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:49.368Z",
+        "updatedAt": "2025-07-09T06:18:49.368Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Поставь мне джаз. Vol. 7: Дима Студитский",
+        "description": "Jazzist Magazine",
+        "duration": 8520,
+        "created_at": "2021-03-26",
+        "artwork_url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84967e01f3fc31a82c75f51978",
+        "url": "https://open.spotify.com/playlist/62JvJn30H4qIPzslGDy2f2"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "5fnwVKEA3oxzOd7eIxFFDr",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:49.358Z",
+        "updatedAt": "2025-07-09T06:18:49.358Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Поставь мне джаз. Vol. 7: Дима Студитский",
+        "description": "Jazzist Magazine",
+        "duration": 8520,
+        "created_at": "2021-03-26",
+        "artwork_url": "https://avatars.yandex.net/get-music-user-playlist/38125/1219363817.1033.69404/300x300?1616774405618",
+        "url": "https://music.yandex.ru/playlists/8db19303-7fff-2c1c-9a11-fe762f32268a"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "RTBcZADOJ9uqpRoSpoDiE",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:47.303Z",
+        "updatedAt": "2025-07-09T06:18:47.303Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Found Sound #2 Dima Studitsky",
+        "description": "playlist by Found Record Store & Pizzeria",
+        "duration": 8100,
+        "created_at": "2025-01-22",
+        "artwork_url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f03ad90fb4788a60efb91278",
+        "url": "https://open.spotify.com/playlist/581qJ20vxRfJm33q4bEFiQ"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "4kFE2IoJYNwpE4Wv5c6Zkt",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:47.273Z",
+        "updatedAt": "2025-07-09T06:18:47.273Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Found Sound #2 Dima Studitsky",
+        "description": "playlist by Found Record Store & Pizzeria",
+        "duration": 8100,
+        "created_at": "2025-01-22",
+        "artwork_url": "https://avatars.yandex.net/get-music-user-playlist/11407805/1748634270.1002.98483/300x300?1737363055549",
+        "url": "https://music.yandex.ru/playlists/58bd561b-7d3e-de32-b30e-1a06c2ef8bb8"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "2aQmKUbl1lr1QMjQDwDt6a",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:45.768Z",
+        "updatedAt": "2025-07-09T06:18:45.768Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Most Moscow x Peakart: Dima Studitsky 13.08.23",
+        "description": "",
+        "duration": 3069,
+        "created_at": "2023-08-13",
+        "artwork_url": "https://img.youtube.com/vi/xyIpo_EVP5w/mqdefault.jpg",
+        "url": "https://www.youtube.com/live/xyIpo_EVP5w"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "6Se21Pe4SEnpG1pTf5XloL",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:45.736Z",
+        "updatedAt": "2025-07-09T06:18:45.736Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Most Moscow x Peakart Residence: Dima Studitsky 13.08.2023",
+        "description": "",
+        "duration": 4102,
+        "created_at": "2023-10-13T05:31:13Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-saVRuIdtlS4N2wMx-RTFpOQ-large.jpg",
+        "url": "https://soundcloud.com/mostmoscow/most-moscow-x-peakart-1"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "2VzkQKTXsJU28Ko2vKJbhG",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:44.395Z",
+        "updatedAt": "2025-07-09T06:18:44.395Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky",
+        "description": "",
+        "duration": 3868,
+        "created_at": "2021-12-03T21:09:08Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-65VYBCGB5KFSAPQs-HhNi7w-large.jpg",
+        "url": "https://soundcloud.com/mostmoscow/dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "hykgVe4qUSUdk516hSG5E",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:42.196Z",
+        "updatedAt": "2025-07-09T06:18:42.196Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Chill-out & Electronic Music World by STUDITSKY - L'atelier de Musique Ep034",
+        "description": "Perfect mix for relaxing time from Dmitry Studitsky - DJ and producer, released on many labels, curator of Moscow project called Lobby.\nIn what atmosphere do you listen to our new mix on L'atelier de Musique? - share in the comments!\nDJ equipment we use:\n– Technics SL-1200MK2 Turntable\n– Ecler Warm2 Mixer\n– ZOOM H6",
+        "duration": 3725,
+        "created_at": "2025-07-07",
+        "artwork_url": "https://img.youtube.com/vi/uC263kuTFVo/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=uC263kuTFVo"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "5lvgtoiUumJ9iJuA9oCdQj",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:38.338Z",
+        "updatedAt": "2025-07-09T06:18:38.338Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Most Moscow: Dima Studitsky 28.12.2022",
+        "description": "",
+        "duration": 4498,
+        "created_at": "2023-01-05",
+        "artwork_url": "https://img.youtube.com/vi/BymY-rEeSFc/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=BymY-rEeSFc"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "2zs876MQH2EQpHUX0yzA1Z",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:37.558Z",
+        "updatedAt": "2025-07-09T06:18:37.558Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky @ B-SIDE",
+        "description": "Дима Студитский стоит за вертушками уже без малого три десятилетия, а в его сетах звучит умная и красивая эклектика в диапазоне от эмбиента, даунтемпо и даба до актуальнейших проявлений хауса, техно и ломаного ритма. В качестве продюсера его ценят и знают далеко за пределами России. В дискографии Студитского - такие ремиксы как на Jazzanova, DJ Cam и Radio Citizen, а также два альбома фолк-джазового проекта Первое Солнце.",
+        "duration": 6294,
+        "created_at": "2023-02-27",
+        "artwork_url": "https://img.youtube.com/vi/nu1bStn-9kE/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=nu1bStn-9kE"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "5YEut9TL4p6zo3gmK50Kbj",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:36.805Z",
+        "updatedAt": "2025-07-09T06:18:36.805Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "WAREHOUSE MIX 197 - DIMA STUDITSKY",
+        "description": "Special vinyl mix by Dima Studitsky for Warehouse Podcast.",
+        "duration": 3915,
+        "created_at": "2024-12-19",
+        "artwork_url": "https://img.youtube.com/vi/VoDNSOowvGE/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=VoDNSOowvGE"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "2ZRZy8qsTjvhmXyXtWS4ga",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:36.013Z",
+        "updatedAt": "2025-07-09T06:18:36.013Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "DIMA STUDITSKY - 21.12.2024 VINYL SET",
+        "description": "Artist: @studitsky\nPlace: Old Macau\nInst: www.instagram.com/oldmacau/\nTG: t.me/oldmacau",
+        "duration": 11056,
+        "created_at": "2025-01-03T00:47:09Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-YgOIkPw0QlNu17QG-neNAnQ-large.jpg",
+        "url": "https://soundcloud.com/oldmacau/dima-studitsky-21122024-vinyl-set"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "1RNc2ZG8k99T7S7kVVOKgJ",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:35.270Z",
+        "updatedAt": "2025-07-09T06:18:35.270Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky - 31.05.2024 VINYL SET",
+        "description": "Vinyl set by @studitsky",
+        "duration": 11068,
+        "created_at": "2024-06-05T16:18:15Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-h9VZwgoICvCqMfJP-eWYAPA-large.jpg",
+        "url": "https://soundcloud.com/oldmacau/dima-studitsky-31052024-vinyl-set"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "1tngXXOgnyjE3NZk5L3tX6",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:34.480Z",
+        "updatedAt": "2025-07-09T06:18:34.480Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "The Russian Roulette with Dima Studitsky - 17th April 2024",
+        "description": "This April, Alex Imix welcomes a long-awaited guest Dima Studitsky to his Russian Roulette show. \n\nFor nearly three decades, Studitsky has been weaving magic behind the turntables, playing sophisticated sets that flawlessly blend ambient, downtempo, and dub with cutting-edge house, techno, and broken rhythms.\n\nBut his talents extend beyond the booth. As a producer, Studitsky's releases on labels like Compost Records, Sonar Kollektiv, Peppermint Jam, and King Street have earned him international acclaim. His impressive discography boasts remixes for Jazzanova, DJ Cam, and Radio Citizen and many others.\n\nFestival stages worldwide have witnessed Studitsky's brilliance. From revered European gatherings like Southern Soul and Sunsplash to electrifying Moscow crowds paying opening sets for the likes of Ame, Giles Peterson, Kuniyuki Takahashi, Karizma, DJ Krush, and Peter Kruder, he's a true master of his art. Put your headphones on, press play and have a proper listen.",
+        "duration": 3632,
+        "created_at": "2024-04-19T07:58:30Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-KQ05990CBuN4W3yy-xwzJ0Q-large.jpg",
+        "url": "https://soundcloud.com/bangkokcommunityradio/the-russian-roulette-with-dima-studitsky-17th-april-2024"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "1pTWb5EllKClVPIT5pRLCu",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:33.356Z",
+        "updatedAt": "2025-07-09T06:18:33.356Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky Oknotalk About Planet Imaginary Sounds",
+        "description": "Послушали и поговорили про винил, который собрал для нашего окнотолка Дима Студицкий.",
+        "duration": 4188,
+        "created_at": "2024-02-27T13:08:55Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-XFQKFToRyCy8s7WM-N9ynMw-large.jpg",
+        "url": "https://soundcloud.com/okno-club/dima-studitskiy-oknotalk-about"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "6lYtIZoJrVRDA4rLI0D0JY",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:32.447Z",
+        "updatedAt": "2025-07-09T06:18:32.447Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "dima studitsky - 5/8 : radio at rovesnik bar, 4.06.2023",
+        "description": "dima studitsky - 5/8 : radio at rovesnik bar , 4.06.2023",
+        "duration": 3567,
+        "created_at": "2023-06-05T12:50:25Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-7hsAwDJeENZG936g-vcebww-large.jpg",
+        "url": "https://soundcloud.com/5na8radio/dima-studitsky-58-radio-at-rovesnik-bar-4062023"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "5KHVx9uFPF7ncuUHB1Cifg",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:31.552Z",
+        "updatedAt": "2025-07-09T06:18:31.552Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "TAKT Mix Series 011 - Dima Studitsky",
+        "description": "Another mix woven skillfully by the hands from the capital, it is soulfully filled with captivating downtempo rhythms. Here you'll find a gentle breeze and a cozy atmosphere. So, wherever you may be, simply surrender to the moment and enjoy the next hour!\n\nDima Studitsky has been standing behind the turntables for almost three decades, and his sets resonate with intelligent and beautiful eclecticism, encompassing a wide range of genres from ambient, downtempo, and dub to the most current manifestations of house, techno, and broken beats. As a producer, he is highly valued and recognized not only in Moscow and Russia but also beyond, thanks to his releases on Compost Records, Sonar Kollektiv, Peppermint Jam, and King Street. In his discography, you can find remixes of artists such as Jazzanova, DJ Cam, and Radio Citizen. He has also participated in major European festivals such as Southern Soul and Sunsplash, and in Moscow, his sets could be heard warming up for Ame and Gilles Peterson, Kuniyuki Takahashi and Karizma, DJ Krush, and Peter Kruder.\n\n@studitsky\ninstagram.com/dimastuditsky\n\nSubscribe to TAKT\ntaplink.cc/takt.rec",
+        "duration": 4317,
+        "created_at": "2023-05-12T19:29:16Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-RmyqMqvntwpwmLEn-5eLUaA-large.jpg",
+        "url": "https://soundcloud.com/taktrec/takt-mix-series-011-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "6n4Qvg4mGWtugGTU4umsDr",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:30.888Z",
+        "updatedAt": "2025-07-09T06:18:30.888Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky live set 2223",
+        "description": "",
+        "duration": 5102,
+        "created_at": "2023-02-08T14:16:14Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-oTgK4NuwVJz6Hgky-7ikU5g-large.jpg",
+        "url": "https://soundcloud.com/user-548333901/dima-studitsky-fictional-radio-winter-23"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "7J2ZLavDBNk0BOxl4ueW7I",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:29.712Z",
+        "updatedAt": "2025-07-09T06:18:29.712Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky - lost mix 2007 (vinyl only)",
+        "description": "lost mix recorded in April 2007",
+        "duration": 4264,
+        "created_at": "2022-10-31T14:21:45Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-9YaVowPm18JkdvFA-52f3Cg-large.jpg",
+        "url": "https://soundcloud.com/user-502781119/dima-studitsky-lost-mix-2007vinyl-only"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "7ek0BJ4aoocLbB3mxGeSoh",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:29.085Z",
+        "updatedAt": "2025-07-09T06:18:29.085Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky Ketama Radio 2013",
+        "description": "Recorded in 2013 in legendary ketama cafe",
+        "duration": 3518,
+        "created_at": "2022-10-12T11:05:40Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-prj7B4cClMy5yeAX-yUs0Gg-large.jpg",
+        "url": "https://soundcloud.com/user-502781119/dima-studitsky-for-ketama-mp3"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "5DGJjXxqB5vJcAgfdIjlGT",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:28.512Z",
+        "updatedAt": "2025-07-09T06:18:28.512Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Detox №4 - Dima Studitsky",
+        "description": "",
+        "duration": 3532,
+        "created_at": "2022-05-25T16:22:19Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-hEcw8SN8EIiX7u5J-aYBrYg-large.jpg",
+        "url": "https://soundcloud.com/detoxingsolution/detox-4-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "1EFNuu47bSqwgf6He4Kt1G",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:26.328Z",
+        "updatedAt": "2025-07-09T06:18:26.328Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky Radio Nova Oslo",
+        "description": "A fragment of a program with my buddy RÜBA KPØ, on the Radio Nova Oslo Norway, August 2020\n\n1.Takayuki Shiraishi - Nocturnal Tribes -Studio Mule\n2.C.A.R. - Becoming Strangers (GLOK Remix) - Ransom Note\n3.Mr. Ho - 000BABY - Klasse Wrecks\n4.Tornado Wallace - Midnight Mania - Optimo Music\n5.Koloah - Stelakis - Thousand Kisses Place\n6.Blazer SoundSystem - Draco Beat - Youth\n7.Sepehr - Contamination - Dark Entries\n8.Le Disko - La Noche - From Disco To Disko\n9.Cyrk - Distant Bodies -Dred Records\n10.Serial Error - Art Academy Talk (Vocal) - Rat Life\n11.Guess Disco - Telecaster (Dima Studitsky Remix)  - Save The Black Beauty\n12.LoYoTo - ThisCity - LYT Recordings\n\nhttps://www.mixcloud.com/rubakpo/rkrs-107-dima-studitsky-ruba-kpø-takayuki-shiraishi-car-mr-ho-cyrk-loyoto/",
+        "duration": 3697,
+        "created_at": "2022-03-13T09:47:26Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-fLtytYsIeaFIXSjq-IJJzyg-large.jpg",
+        "url": "https://soundcloud.com/user-548333901/dima-studitsky-radio-nova-oslo"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "5FHl6alH6Pd1YWtA8iNXVM",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:25.680Z",
+        "updatedAt": "2025-07-09T06:18:25.680Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky Melody PM Isolation Mix",
+        "description": "Archive mix. Remembering time in lockdown in 2020...\n\n1.H.Takahashi - Pollen\n2.Holden & Zimpel - Wednesday\n3.Sigward & Oliver Sudden - Kailash (Edit)\n4.ODAE - What?\n5.The Breathing Effect - Heliotrope\n6.Golden Retriever & Chuck Johnson - Sage Thrasher\n7.Lyra Pramuk - Tendril\n8.Philipp Rumsch Ensemble - D4 \n9.Eedl - Parabola \n10.Konx-Om-Pax -Rez (Skee Mask Remix)\n11.Lord Of The Isles - Waiting in Arisaig\n12.The Advisory Circle - Airflow",
+        "duration": 3637,
+        "created_at": "2022-03-13T07:41:43Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-Um4Cs4L1o72NgUzP-gzjDvQ-large.jpg",
+        "url": "https://soundcloud.com/user-548333901/dima-studitsky-melody-pm-isolation-mix"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "4J5lBiIcqwidZN0ChKW1lg",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:25.091Z",
+        "updatedAt": "2025-07-09T06:18:25.091Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky for Melody P.M. Radio Show",
+        "description": "Mix from Moscow based dj Dima Studitsky",
+        "duration": 3672,
+        "created_at": "2021-08-23T15:13:46Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-dfhG10qTh2dUYQDn-ZFw7dQ-large.jpg",
+        "url": "https://soundcloud.com/melodypm/dima-studitsky-for-melody-pm-radio-show"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "63HeCloLqDDzkZ3fwRWW4R",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:24.395Z",
+        "updatedAt": "2025-07-09T06:18:24.395Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "dima studitsky - petit bla__nc",
+        "description": "",
+        "duration": 3449,
+        "created_at": "2021-06-29T11:08:19Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-zLtivIX9yIpsmnLU-5ATgpA-large.jpg",
+        "url": "https://soundcloud.com/5na8radio/dima-studitskiy-petit-bla_nc"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "4O91F1apuGziaooyK9tCt5",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:23.410Z",
+        "updatedAt": "2025-07-09T06:18:23.410Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky - 5/8 Radio #150",
+        "description": "We're getting a little close to the 150 number of mixes, so the anniversary mix matches the magnitude of this event, cause his author is the veteran of the DJing - Dima Studitsky.\n\nFor many years he has been a resident of Propaganda Moscow club, he has played all around Russia and far beyond, being a part of some of the best underground European festivals such as Southern Soul Montenegro, Antalya Sunsplash, and De La Bonne Musique Festival. His remixes were released on famous labels such as Sonar Kollektiv, Munich Compost Records. For more than 10 years now, Studitsky together with his partner in crime Ilya Rasskazov is running the internet-radio project called Headz.FM, and the infamous club nights of the same name, which have hosted Gilles Peterson, Ame, DJ Krush, Jazzanova, Domu, Kyoto Jazz Massive, and dozens of other outstanding DJs and musicians.",
+        "duration": 4088,
+        "created_at": "2020-11-20T13:25:03Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-SzUuYem4sYRrv5uv-ks3vRw-large.jpg",
+        "url": "https://soundcloud.com/5na8radio/dima-studitsky-58-radio-150"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "6SnZkSLOCj0VJXWpgiqpJo",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:22.712Z",
+        "updatedAt": "2025-07-09T06:18:22.712Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Tiger's Blood. Episode 18: Dima Studitsky",
+        "description": "",
+        "duration": 3563,
+        "created_at": "2020-08-24T06:09:33Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-K2mXsEUAq9PNKBKT-fJUdHA-large.jpg",
+        "url": "https://soundcloud.com/radio_tiger/tigers-blood-episode-18-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "5ZhvtUxFslGVJkyLsBpOcX",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:22.116Z",
+        "updatedAt": "2025-07-09T06:18:22.116Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Headz.FM episode 176 Dima Studitsky mix",
+        "description": "Dima Studitsky is back with another inspiring selection for Headz . A beautiful journey inside, from leftfield, future jazz and balearic to slo-mo acid beats, IDM and ambient…\nhttps://soundcloud.com/studitsky\nhttps://web.facebook.com/studitsky/\nhttps://www.mixcloud.com/HeadzFM/\nhttps://web.facebook.com/headzfm/",
+        "duration": 3730,
+        "created_at": "2020-03-06T23:44:39Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-rLayjOmD2NGglLyx-IYqZlw-large.jpg",
+        "url": "https://soundcloud.com/studitsky/dima-s-mix-2020-headz-fm-master"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "6M78b2gSlUPWRCY2ZDzh4A",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:21.330Z",
+        "updatedAt": "2025-07-09T06:18:21.330Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Slushajem Radio // Guestmix Nr. 03 by Dima Studitsky",
+        "description": "For our third Mix, we asked a good friend from Moscow. \nDima Studitsky is well-known in Russia for his brilliant and fascinating taste of music.\nWe are very happy to get him on Slushajem, so enjoy a musical trip into the vibes of Moscow.\n\n\nCheers\nSlushajem Radio",
+        "duration": 3744,
+        "created_at": "2018-11-09T19:43:49Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000437018208-nzf06a-large.jpg",
+        "url": "https://soundcloud.com/slushajemradio/slushajem-radio-guestmix-nr-03-by-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "3d7FsX7WmQXnJDcidAT2HP",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:20.604Z",
+        "updatedAt": "2025-07-09T06:18:20.604Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Headz.FM episode 133 mixed by Dima Studitsky",
+        "description": "This episode is full of great music, this time we have a Dima Studitsky mix inside the first hour!\nhttps://soundcloud.com/studitsky\nwww.facebook.com/studitsky/\nwww.facebook.com/headzfm/",
+        "duration": 3582,
+        "created_at": "2018-04-16T13:14:23Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000335875794-u1uigd-large.jpg",
+        "url": "https://soundcloud.com/user-755511070/headzfm-episode-133-mixed-by-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "gLy894dg7nwFI3VwpzJwk",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:19.997Z",
+        "updatedAt": "2025-07-09T06:18:19.997Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Headz.FM episode 129 mixed by Dima Studitsky",
+        "description": "Happy New Year dear everyone around the world! in this episode we have Dima Studitsky and his favorite tunes of 2017. Something special as always. We hope you enjoy. All the best for 2018!\nhttps://www.facebook.com/headzfm/\nhttps://www.facebook.com/studitsky/\nhttps://soundcloud.com/studitsky",
+        "duration": 5878,
+        "created_at": "2018-01-02T14:47:37Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000282416882-hxxy2v-large.jpg",
+        "url": "https://soundcloud.com/user-755511070/headzfm-episode-129-mixed-by-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "716EJwk3bMqkUpsekwSRrR",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:19.425Z",
+        "updatedAt": "2025-07-09T06:18:19.425Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Headz.FM episode 122 mixed by Dima Studitsky",
+        "description": "In this episode Dima Studitsky comes back with a stunning autumn vibes mix, we did a a little radio session a while ago, so here is the full version of Dima’s mix. Beautiful off-beat selection and lot’s of discoveries as always.\nhttps://soundcloud.com/studitsky\nhttps://www.facebook.com/headzfm/\nhttps://www.facebook.com/studitsky/",
+        "duration": 3426,
+        "created_at": "2017-10-02T13:11:33Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000245235469-sd1gfs-large.jpg",
+        "url": "https://soundcloud.com/user-33411852/headzfm-episode-122-mixed-by-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "5Z4UwYCMgtakygEqn0Sns",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:18.758Z",
+        "updatedAt": "2025-07-09T06:18:18.758Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "O*RS The Relationship Mix 18 - Dima & Studitsky",
+        "description": "<3 from russia with love <3\n\nhttps://www.facebook.com/studitsky/\n\nhttps://soundcloud.com/studitsky",
+        "duration": 4056,
+        "created_at": "2017-02-15T12:46:51Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000207911241-ucu0vf-large.jpg",
+        "url": "https://soundcloud.com/o-rs/ors-the-relationship-mix-18-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "3fUqfJ89aXy2QtnLyWdyJq",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:18.164Z",
+        "updatedAt": "2025-07-09T06:18:18.164Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Headz.FM episode 108 mixed by Dima Studitsky",
+        "description": "Second part of the best songs & tunes of 2016 according to Headz.FM selected by Dima Studitsky. Obscure electronics, ambience, indie-dance, future jazz, acid balearic and other things strange, deep and beautiful in this episode. Hope you enjoy. Leave a comment, share with a friend, stay tuned.\nhttps://soundcloud.com/studitsky\nhttps://www.facebook.com/headzfm/?fref=ts\nhttps://www.mixcloud.com/HeadzFM/",
+        "duration": 7132,
+        "created_at": "2017-01-20T14:10:48Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000204094613-0aew6w-large.jpg",
+        "url": "https://soundcloud.com/user-33411852/headzfm-episode-108-mixed-by-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "3qFJ8g9M2Rh6VNUuMZZQXy",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:17.548Z",
+        "updatedAt": "2025-07-09T06:18:17.548Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "CBLS 391 | Compost Black Label Sessions | DIMA STUDITSKY guest mix",
+        "description": "Hello dear listeners,\nWe’re continuing our journey with a great guest mix by our Russian fellow Dima Studitsky, who also contributed a remix for Valique’s “Family” release… Enjoy!\n\nTracklisting:\n1. SBTH - Ribolla - Lossless\n2. Quentin - Rain - Hivern Disc\n3. Man Power - Tachyon (Original Mix) - Me Me Me\n4. Third Son - Climb To The Sun ft.Haptic - microCastle\n5. Francesco Tristano - The Mentor (feat. Derrick May) - Transmat\n6. Johannes Brecht & Christian Prommer - Voix Grave (Christian Prommer Remix) - Diynamic\n7. Kiko Navarro ft. Julie McKnight - All Because of You (Koki Dub) - BBE\n8. Ilya Beshevli - The Traveller's Night Song (Simian Mobile Disco Remix) - Village Green \n9. Toto Chiavetta - Finally I'Ve Met You - Innervisions\n10.E&P - Sundroina feat Jinadu (Olderic Dub) - Moodmusic\n11. Max Cooper - Seed feat. Kathrin deBoer - Mesh\n12 .Lukas Bohlender - The Sublime - Compost\n13. LoYoTo - Feel The Bumpin' - Watergate\n14. Jay Haze - Hurt (feat. Robert Owens) - Contexterrior\n15. Kyodai - Amazonia - Vida \n16. Alma Negra - Berkina Berlin (Rainer Trueby & Corrado Bucci present Truccy Remix) - Basic Fingers \n17. The Unhottest - Großkonzern - ISENDIT\n18. Valique - Family (Dima Studitsky remix) - Compost \n19. Sweet Anomaly & Dugong - What May Come - Occultists\n\n__________________________________________________________________________\n\nFollow DIMA STUDITSKY:\nhttps://soundcloud.com/studitsky\nhttps://www.facebook.com/studitsky/\n\nFollow us:\nwww.facebook.com/compostrecords\nwww.twitter.com/compostrecords\nwww.youtube.com/user/compostrecords\nwww.compost-rec.com",
+        "duration": 6685,
+        "created_at": "2016-12-19T12:54:36Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000199139800-11yrng-large.jpg",
+        "url": "https://soundcloud.com/compost/cbls-391-compost-black-label-sessions-dima-studitsky-guest-mix"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "3hZGt6QJlE9ym7KuLXxi8d",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:16.835Z",
+        "updatedAt": "2025-07-09T06:18:16.835Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Episode #007 Oktenk x Dima Studitsky",
+        "description": "1st hour, resident mix: @oktenk \n\nOur resident Eugene delivering a selection of his deep house house cuts, mellow in the beginning, groovy at the end! Prepare to swing your hips! \n\nTracklist: \n\n1. Georgi Barrel - Biggie Calls (Original mix)\n2. Vodzux - Wonder Why (Original Mix)\n3. James Benedict - When You're Back (Studioheist Remix)\n4. Tom Conrad - Introspective (Original Mix)\n5. Purple Velvet - Trials of the Blues (feat. Lisa D)\n6. Dub Striker - Falling Leaves (Ghetto Chords Remix)\n7. Local Options\t- Promises\n8. Purple Velvet - Marble Zone\n9. The Checkup - I Found House\n10. Detroit Swindle - Victoria's Secret\n11. David Marston feat. Jordan Rosenberg & Aubrey Nolan & Beth Aggett - True\n\n2nd hour, guest mix: Dima Studitsky \n\nFollow: @studitsky\n\nThis time around we're privileged to have one of the Moscow's finest, Propaganda resident, Dima Studitsky on board. His releases on Sonar Kollektiv, Compost Records, King Street Sounds, Peppermint Jam, Deep Down Slam, Galaktika Records (just to name a few) speak for themselves. \nFrom Moscow through Berlin, Munich and straight into your heartcore! \nCrank up the volume and have yourselves a treat! \n\nTracklist: \n\n1. Pacifica - Memory Man - (Kalabrese Remix) - Drumpoet Community \n2. Platzdasch - Dignified Words - (Liquid Phonk Remix) - Manuscript \n3. Lakosta - You For - Minim.all \n4. Adesse Versions - In The Sticks (Original Mix) - Numbers \n5. Frank Wiedemann - Moorthon II (Original Mix) - Innervisions \n6. Luca Bacchetti - Fireflies and Crickets (Original Mix) - Endless \n7. Philipp Stoya - Komito - Compost \n8. Kyodai - Houston In The Blind (Club Version) - Exploited \n9. Animal Picnic - Gravity (Midas 104 Remix) - Steyoyoke \n10. Andre Crom - Behind the Glass - (Johannes Brecht Remix) - Off ",
+        "duration": 7357,
+        "created_at": "2016-04-19T08:29:36Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000158856371-zypfxn-large.jpg",
+        "url": "https://soundcloud.com/burtonbass/borderless-podcast-007-dima-studitsky-oktenk"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "3n6oNW7A4XMYFXdlKOz8Wr",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:16.103Z",
+        "updatedAt": "2025-07-09T06:18:16.103Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Electronica Podcast - Episode 86: Dima Studitsky",
+        "description": "Dima Studitsky is in the DJ game from the mid 90-s and can be named as one of the best DJs in Moscow. In autumn 2011 his remix for Jazzanova «I Can See» came out on a well-known Berlin-based label Sonar Kollektiv, receiving support from the likes of François Kevorkian, Tokyo Black Star and Rainer Trueby. In 2012 more remixes followed, among which was the epic rework of «Lovery» from the Spanish duo Tucillo & Kiko Navarro on King Street Sounds and a remix for «Welcome To Our World» by Rainer Trueby on the cult label from Munich Compost Records. Moreover Dima Studitsky is a member of an folk-jazz project called «The First Sun» («Pervoye Solnce» in Russian) together with Vladimir Goloukhov with whom they released two studio albums.\n\nFollow @studitsky",
+        "duration": 3290,
+        "created_at": "2015-02-24T23:07:13Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000107988761-4jemxd-large.jpg",
+        "url": "https://soundcloud.com/electronicalabel/electronica-podcast-episode-86-dima-studitsky"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "30A0IqP7bb9EqCGY7OlB4w",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:15.473Z",
+        "updatedAt": "2025-07-09T06:18:15.473Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Dima Studitsky RTS.FM 28.10.14",
+        "description": "1.FHLOSTON PARADIGM - LIGHT ON EDGE Original Mix - Hyperdub\n2.MEMOTONE - ROOFWALKER Original Mix - Project Mooncircle\n3.TIMOKA- SEMBAT'S TRAVEL Original Mix -Holger\n4.RIVAL CONSOLES - 3 Chords Original Mix - Erased Tapes\n5.Taylor McFerrin - PLACE IN MY HEART feat RYAT - Brainfeeder \n6. Bugge Wesseltoft, Henrik Schwarz, Dan Berglundthis -This is my day -Jazzland\n7.GRANDBROTHERS - NOTBRAUSE Original Mix - Film \n8.MATOM - Experiment 7 Variation Two Original - Planet E \n9.LIQUID PHONK - MISSING YOU - Liquid Phonk Edit - Farside records \n10.RECONDITE - Konter Original Mix - Innervisions \n11.DARK SKY - PURPLE CLOUDS Original Mix - Monkeytown Records \n12.TREVINO - Warmer Original Mix - Birdie \n13.Ivaylo & Slammer - Breathe Easy (feat. Renate)Original Mix - Bogota Records \n14.Eva Be - Closer Feat. Ben Ivory - Eva Be & Cle String Version - Poesie Musik \n15.Pablo Sanchez - Morning Float Original Mix - Seven Villas\n\nDima started playing as a DJ in the middle of 90s. His name can be considered among the best DJs of Moscow. In the fall of 2011 Dima’s remix on Jazzanova «I Can See» from their last album was released on Sonar Kollektiv and received support from Francois Kevorkian, Tokyo Black Star and Rainer Truby.\nIn 2012 a few remixes was also published. Among them: epic treatment composition «Lovery» from spanish guys Tucillo & Kiko Navarro on american «King Street Records» and «Welcome To My World» from Rainer Trueby on the cult Munich Compost Records.\nAlso Dima is a participant indie-folk-jazz project \"First Sun\" in cooperation with the Moscow musician Vladimir Golouhovym. Guys have two studio albums.",
+        "duration": 4977,
+        "created_at": "2014-10-29T05:29:51Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000095465175-m4bz5t-large.jpg",
+        "url": "https://soundcloud.com/rtsfm/dima-studitsky-rtsfm-281014"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "3KLAAB2nfonzR8d6jevFYZ",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:14.776Z",
+        "updatedAt": "2025-07-09T06:18:14.776Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Deep Inspiration Show 273 \"Guestmix by Dima Studitsky (Russia) [Compost]\"",
+        "description": "This week with a mix by Dima Studitsky from Moscow. Most people know him from releases on Compost Records, Sonarkollektiv, Kingstreetsounds and Strictlygroove Records. \r\n\r\nPLAYLIST\r\n\r\n1.youANDme - Beyond -Carlos Nilmmns Interpretation -Ornaments \r\n2.Marco Effe - Canto D'Amore (feat. Francesco Carone)Original Mix -Connaisseur \r\n3.The Acid - Fame - Liberator music \r\n4.QUARION - SearchingOriginal Mix - Drumpoet Community\r\n5.MARK HENNING- Soul Catcher Original Mix - Swing Recordings\r\n6.NOLAN- Children of House- Of Norway Version- Connaisseur \r\n7.Da Lata - Unknown feat. Myra Andrade (Eddy & Dus Remix) - Agogo records\r\n8.Few Nolder - Houly Pouly Original Mix -Silence Music \r\n9.SOHN - Lights Original Mix -4AD \r\n10.MJ COLE - Geared Piano Original Mix -Prolific Recordings \r\n\r\nMore about him:\r\nhttps://soundcloud.com/studitsky\r\n@ https://www.facebook.com/dima.studitsky\r\n\r\n\r\n",
+        "duration": 3568,
+        "created_at": "2014-06-08T16:12:56Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000081796814-26vf82-large.jpg",
+        "url": "https://soundcloud.com/jazzman/deep-inspiration-show-273-guestmix-by-dima-studitsky-russia-compost"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "6JKvz0BoJh8t1RwFlH4DeP",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:14.114Z",
+        "updatedAt": "2025-07-09T06:18:14.114Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Propaganda Got Soul # 20",
+        "description": "MIXTAPE # 20 Propaganda Got Soul party with DJ PHILLA & DIMA STUDITSKY\r\n\r\n____ \r\nListen and download other mixtapes here: philla.podomatic.com \r\nVisit PGS page on facebook: www.facebook.com/propagandagotsoul \r\nParty's homepage: www.gotsoul.ru",
+        "duration": 5090,
+        "created_at": "2012-09-03T20:22:21Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000029652932-whqoiq-large.jpg",
+        "url": "https://soundcloud.com/philla/mixtape-20-propaganda-got-soul"
+      }
+    },
+    {
+      "metadata": { "tags": [], "concepts": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "r5p76bnm5g8d" }
+        },
+        "id": "2qscEbq48APG0oxepcF4dx",
+        "type": "Entry",
+        "createdAt": "2025-07-09T06:18:13.248Z",
+        "updatedAt": "2025-07-09T06:18:13.248Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": { "type": "Link", "linkType": "ContentType", "id": "track" }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Studitsky spring mix",
+        "description": "",
+        "duration": 3388,
+        "created_at": "2011-03-21T17:32:30Z",
+        "artwork_url": "https://i1.sndcdn.com/artworks-000005731551-dsue5y-large.jpg",
+        "url": "https://soundcloud.com/propagandamoscow/studitsky-spring-mix"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "fields": {
+        "tracks": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "uyQbwrJr19aY04jmDp2A5"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5fnwVKEA3oxzOd7eIxFFDr"
+            }
+          }
+        ]
+      },
+      "sys": { "id": "1lhcOw3qmlK7aCbnz6Ro1x", "type": "Entry" }
+    },
+    {
+      "fields": {
+        "tracks": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "RTBcZADOJ9uqpRoSpoDiE"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4kFE2IoJYNwpE4Wv5c6Zkt"
+            }
+          }
+        ]
+      },
+      "sys": { "id": "DNedyh3AlExkuCRFPhum6", "type": "Entry" }
+    },
+    {
+      "fields": {
+        "tracks": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6Se21Pe4SEnpG1pTf5XloL"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2aQmKUbl1lr1QMjQDwDt6a"
+            }
+          }
+        ]
+      },
+      "sys": { "id": "2o22oSSS3Fmpr0GLz0zIny", "type": "Entry" }
+    },
+    {
+      "fields": {
+        "tracks": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2VzkQKTXsJU28Ko2vKJbhG"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5MUX9HJu7s9ept6elJ5l48"
+            }
+          }
+        ]
+      },
+      "sys": { "id": "5omx1amEfGSDescPYYbC7S", "type": "Entry" }
+    },
+    {
+      "fields": {
+        "tracks": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7GVQsDA1bAarP47xgvGQQr"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "y57q6mNxMtt8IYxyqkYNr"
+            }
+          }
+        ]
+      },
+      "sys": { "id": "7MC4IfL56wGeJcrgiwftC1", "type": "Entry" }
+    }
+  ]
+}
