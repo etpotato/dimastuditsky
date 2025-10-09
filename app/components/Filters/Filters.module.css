@@ -27,13 +27,14 @@
     max-width: 192px;
     min-width: 140px;
     box-sizing: border-box;
-    border-radius: 6px;
+    border-radius: 5px;
     text-align: center;
     color: black;
     cursor: pointer;
     white-space: nowrap;
-   text-decoration: none;
-    outline: 2px solid currentColor;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid currentColor;
 
     @media (max-width: 768px) {
         min-width: 100%;
@@ -47,7 +48,6 @@
 @media (hover: hover) {
     .filter:hover {
         background-color: black;
-        outline: 2px solid currentColor;    
     }
 
     .filter:hover .filterText {
@@ -58,7 +58,6 @@
 
 .active {
     background-color: #000;
-    outline: 2px solid #000;
 }
 
 .active .filterText {
