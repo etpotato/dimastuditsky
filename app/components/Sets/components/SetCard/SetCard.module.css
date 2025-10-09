@@ -58,7 +58,7 @@
     }
 }
 
-@media (hover: hover) {
+@media (hover: hover) and (min-width: 1279px) {
     .setCell:hover {
         border: 1px solid #000;
     }
