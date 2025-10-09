@@ -5,7 +5,7 @@
     padding: 60px 20px;
 
     @media (max-width: 1279px) {
-        padding: 0 12px 60px;
+        padding: 60px 12px;
         gap: 0;
 
     }
@@ -32,6 +32,12 @@
         position: static;
         justify-self: center;
         padding: 100px 0 120px;
+    }
+}
+
+.setYearsMobile {
+    @media (max-width: 1279px) {
+        display: none;
     }
 }
 

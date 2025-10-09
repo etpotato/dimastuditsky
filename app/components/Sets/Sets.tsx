@@ -2,6 +2,7 @@ import type { TrackListByYear } from "~/types";
 import { Text } from "~/ui";
 import styles from "./Sets.module.css";
 import { SetCard } from "./components/SetCard/SetCard";
+import cn from "classnames"
 
 type Props = {
   trackList: TrackListByYear;
@@ -12,9 +13,9 @@ export function Sets({ trackList }: Props) {
 
   return (
     <div className={styles.sets}>
-      {yearsList?.map((year) => (
+      {yearsList?.map((year, idx) => (
         <div className={styles.setsProperty} key={year}>
-          <Text className={styles.setsYear} content={year} />
+          <Text className={cn(styles.setsYear, idx === 0 && styles.setYearsMobile)} content={year} />
           <ul className={styles.setsContainer}>
             {trackList[year].map((set, idx) => {
               if (Array.isArray(set)) {
