@@ -6,12 +6,9 @@ import { LinksModal } from "../LinksModal/LinksModal";
 
 export function Links() {
     const [modalOpen, setModalOpen] = useState(false);
-    const openClickHandler = () => {
-        window.scrollTo({top: 100, behavior: 'smooth'});
-        setModalOpen(true)
-    };
+    const openClickHandler = () => setModalOpen(true);
     const closeClickHandler = () => setModalOpen(false);
-    
+
     useEffect(() => {
         const escKeydownHandler = (e: KeyboardEvent) => {
             if (e.key === 'Escape' || e.code === 'Escape') {
