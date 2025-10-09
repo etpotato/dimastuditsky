@@ -22,7 +22,7 @@ export const SetCard = memo(function ({ card, isGroup, index }: Props) {
   return (
     <div className={styles.setCard}>
       <Text content={date} className={styles.setDate} />
-      <Link href={url}>
+      <Link href={url} className={styles.setLink}>
         <div className={styles.setCell}>
           {isGroup ? (
             index === 0 && <Text content={date} className={styles.setDatePc} />
