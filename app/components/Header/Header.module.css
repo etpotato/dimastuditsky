@@ -3,6 +3,11 @@
     justify-content: space-between;
     gap: 12px;
     padding: 20px;
+
+    @media (max-width: 767px) {
+        padding: 20px 12px;
+
+    }
 }
 
 .headerEl {

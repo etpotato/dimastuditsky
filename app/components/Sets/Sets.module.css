@@ -29,9 +29,14 @@
     transition: 0.3s ease-in-out;
 
     @media (max-width: 1279px) {
-        position: static;
-        justify-self: center;
+        position: sticky;
+        top: 0;
+        display: block;
+        width: 100vw;
+        background-color: #fff;
         padding: 100px 0 120px;
+        z-index: 1;
+        text-align: center;
     }
 }
 
