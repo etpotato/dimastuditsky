@@ -1,13 +1,12 @@
 .sets {
-    padding: 60px 0;
     display: grid;
     gap: 60px;
     padding: 60px 20px;
 
-    @media (max-width: 1279px) {
-        padding: 60px 12px;
-        gap: 0;
 
+    @media (max-width: 1279px) {
+        padding: 60px 0;
+        gap: 0;
     }
 }
 
@@ -52,6 +51,7 @@
 
     @media (max-width: 1279px) { 
         gap: 60px;
+        padding: 0 12px;
     }
 }
 
