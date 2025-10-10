@@ -29,13 +29,15 @@
 
     @media (max-width: 1279px) {
         position: sticky;
-        top: 0;
+        top: 12px;
         display: block;
-        width: 100vw;
+        margin: 100px auto 120px;
+        width: fit-content;
         background-color: #fff;
-        padding: 100px 0 120px;
+        padding: 10px 14px;
         z-index: 1;
         text-align: center;
+        border-radius: 5px;
     }
 }
 
