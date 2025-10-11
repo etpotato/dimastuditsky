@@ -4,7 +4,11 @@ import styles from "./Links.module.css"
 import { useEffect, useState } from "react";
 import { LinksModal } from "../LinksModal/LinksModal";
 
-export function Links() {
+interface Props {
+    isBottom: boolean
+}
+
+export function Links({isBottom}: Props) {
     const [modalOpen, setModalOpen] = useState(false);
     const openClickHandler = () => setModalOpen(true);
     const closeClickHandler = () => setModalOpen(false);
@@ -25,7 +29,7 @@ export function Links() {
     return(
         <div className={styles.links}>
             <Button 
-                content="Links" 
+                content={isBottom ? "Ссылки" :"Links"}
                 icon={<IconLinks />} 
                 onClick={openClickHandler}
                 className={styles.linkButton}

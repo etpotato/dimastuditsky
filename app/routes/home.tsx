@@ -51,7 +51,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
       <Filters />
       <Sets trackList={trackListByYear} />
       <Filters isBottom />
-      <Links />
+      <Links isBottom/>
       <Header items={headerItemsRu} />
     </>
   );
